@@ -6,4 +6,5 @@ node_modules
 env
 venv
 testes
-curso-javascript-master
+curso-javascript-master/*
+aula18/index.js

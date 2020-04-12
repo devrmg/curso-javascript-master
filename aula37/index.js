@@ -24,7 +24,8 @@ const pessoa = {
 // }
 
 // console.log('####');
+let pessoa2 = ['Renan', 12, 20, true,  'Mendes']
 
-// nomes.forEach(function(valor, indice, array) {
-//   console.log(valor, indice, array);
-// });
+pessoa2.forEach((valor, indice, array) => {
+  console.log(valor, indice, array);
+});

@@ -9,5 +9,5 @@ const pessoa = {
 };
 
 // Atribuição via desestruturação
-const { nome, sobrenome, ...resto } = pessoa;
-console.log(nome, resto);
+const { a , sobrenome, ...resto } = pessoa;
+console.log(a , resto);

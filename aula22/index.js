@@ -4,13 +4,17 @@ Operadores Lógicos
 || -> OR -> OU
 ! -> NOT -> NÃO
 */
-// const expressaoAnd = true && true && true && true;
-// const expressaoOr = false || false || false || false;
+const expressaoAnd = true && true && true && true;
+const expressaoOr = false || false || false || false;
 
-// const usuario = 'Luiz'; // form usuário digitou
-// const senha = '123456'; // form usuário digitou
+const usuario = 'Luiz'; // form usuário digitou
+const senha = '123456'; // form usuário digitou
 
-// //                      True                  False
-// const vaiLogar = usuario === 'Luiz' && senha === '12345';
+//                      True                  False
+const vaiLogar = usuario === 'Luiz' && senha === '12345';
 
 console.log(!!true);
+
+console.log(vaiLogar)
+console.log(expressaoAnd)
+console.log(expressaoOr)
